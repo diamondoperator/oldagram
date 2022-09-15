@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display:flex;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.header .user{
+margin-left: auto;
+margin-right: 10px;
+margin-top: 20px;
+margin-bottom:20px;
+}
+
+.top{
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+.top .user{
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    }
+
+.logo{
+    width:100px;
+    margin-left: 10px;
+}
+
+.user{
+width:32px;
+border-radius: 50%;
+}
+
+.post .header{
+    display:flex;
+    justify-content: start;
+}
+.post .artistAvatar{
+    width: 32px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.post .img{
+    width: 100%;
+}
+
+.post .icons{
+width:32px;
+}
+
+.post .footer{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.post .icons{
+    margin-bottom: 5px;
+}
+/*.post{
+    border: 2px solid blue;
+}
+
+.post .artistAvatar{
+    width:32px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.post .postHeader{
+display: flex;
+justify-content: start;
+}
+
+.post span{
+    display:block;
+    margin-left: 10px;
+}
+
+.post .image{
+    height: auto;
+    max-width: 100%;
+}
+
+.icons{
+width:32px;
+}*/
